@@ -1,0 +1,5 @@
+com\Maven1\qa\Base\TestBase.class
+com\Maven1\qa\Pages\HomePages.class
+com\Maven1\qa\Pages\LoginPage.class
+com\Maven1\qa\Utility\Utility.class
+com\Maven1\qa\Pages\Orders.class

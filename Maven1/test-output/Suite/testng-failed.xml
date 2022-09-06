@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.Maven1.qa.Testcases.OrdersPageTesting">
+        <methods>
+          <include name="OrderpageTest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.Maven1.qa.Testcases.OrdersPageTesting -->
+      <class name="com.Maven1.qa.Testcases.LoginTest">
+        <methods>
+          <include name="Capturess"/>
+          <include name="setup"/>
+          <include name="ZerodhaLoginPageTest"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.Maven1.qa.Testcases.LoginTest -->
+      <class name="com.Maven1.qa.Testcases.HomepageTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="Setup"/>
+          <include name="Capturess"/>
+          <include name="testhompage"/>
+        </methods>
+      </class> <!-- com.Maven1.qa.Testcases.HomepageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
